@@ -31,3 +31,10 @@ and add in .angular-cli.json <br/>
 
 <b>Create new Component</b> <br/>
 ng generate component servers <br/>
+
+<b>Input events</b><br/>
+<input type="text" (input)="onUpdate($event)"><br/>
+
+onUpdate(event:any) {<br/>
+ console.log(event.target.value);<br/>
+}<br/>
