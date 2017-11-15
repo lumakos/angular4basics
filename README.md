@@ -6,7 +6,7 @@ npm install -g @angular/cli <br/>
 ng new my-first-app <br/>
 ng serve <br/>
 
-Indexes <br/>
+<b>Indexes</b> <br/>
 
 1. Basics
 2. Components & Databinding
@@ -22,9 +22,9 @@ Indexes <br/>
 12. Deployment
 13. Animations & Testing
 
-Typescript = superset of ES5+ES6 of javascript = compiled to JavaScript <br/>
+<b>Typescript</b> = superset of ES5+ES6 of javascript = compiled to JavaScript <br/>
 
-Install Bootstrap <br/>
+<b>Install Bootstrap</b> <br/>
 npm install --save bootstrap <br/>
 andi included in .angular-cli.json in <br/>
 "styles": [ <br/>
