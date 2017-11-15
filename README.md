@@ -24,9 +24,9 @@ Indexes <br/>
 
 Typescript = superset of ES5+ES6 of javascript = compiled to JavaScript <br/>
 
-Install Bootstrap
-npm install --save bootstrap
-andi included in .angular-cli.json in
-"styles": [
-	"../node_modules/bootstarp/dist/css/bootstrap.min.css"
-]
+Install Bootstrap <br/>
+npm install --save bootstrap <br/>
+andi included in .angular-cli.json in <br/>
+"styles": [ <br/>
+	"../node_modules/bootstarp/dist/css/bootstrap.min.css" <br/>
+]<br/>
