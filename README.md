@@ -32,7 +32,7 @@ and add in .angular-cli.json <br/>
 <b>Create new Component</b> <br/>
 ng generate component servers <br/>
 
-<b>Input events</b><br/>
+<b>Input events - OneWayBinding</b><br/>
 <input type="text" (input)="onUpdate($event)"><br/>
 
 onUpdate(event:any) {<br/>
