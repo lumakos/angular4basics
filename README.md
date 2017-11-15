@@ -26,5 +26,5 @@ ng serve <br/>
 
 <b>Install Bootstrap</b> <br/>
 npm install --save bootstrap <br/>
-and included in .angular-cli.json in <br/>
+and add in .angular-cli.json <br/>
 "styles": ["../node_modules/bootstarp/dist/css/bootstrap.min.css"]<br/>
