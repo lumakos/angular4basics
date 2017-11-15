@@ -2,9 +2,9 @@ Angular 4
 video tutorial: https://www.youtube.com/watch?v=htPYk6QxacQ&t=3033s
 tutorial: https://www.udemy.com/the-complete-guide-to-angular-2/?couponCode=YOUTUBE_NG4
 
-npm install -g @angular/cli
-ng new my-first-app
-ng serve
+npm install -g @angular/cli <br/>
+ng new my-first-app <br/>
+ng serve <br/>
 
 1. Basics
 2. Components & Databinding
