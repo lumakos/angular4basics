@@ -6,6 +6,8 @@ npm install -g @angular/cli <br/>
 ng new my-first-app <br/>
 ng serve <br/>
 
+Indexes <br/>
+
 1. Basics
 2. Components & Databinding
 3. Directives
