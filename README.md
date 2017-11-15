@@ -28,3 +28,6 @@ ng serve <br/>
 npm install --save bootstrap <br/>
 and add in .angular-cli.json <br/>
 "styles": ["../node_modules/bootstarp/dist/css/bootstrap.min.css"]<br/>
+
+<b>Create new Component</b> <br/>
+ng generate component servers <br/>
