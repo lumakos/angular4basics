@@ -36,5 +36,5 @@ ng generate component servers <br/>
 <input type="text" (input)="onUpdate($event)"><br/>
 
 onUpdate(event:any) {<br/>
- console.log(event.target.value);<br/>
+  	this.severValue = (<HTMLInputElement>event.target).value;<br/>
 }<br/>
