@@ -1,6 +1,6 @@
 <b>Angular</b> 4 <br/>
 
-Angular is a Javascript framework which allows you to create Single-Page-Application (SPA) <br>
+Angular is a Javascript framework which allows you to create Single-Page-Application (SPA) <br><br>
 video tutorial: https://www.youtube.com/watch?v=htPYk6QxacQ&t=3033s <br/>
 tutorial: https://www.udemy.com/the-complete-guide-to-angular-2/?couponCode=YOUTUBE_NG4 <br/>
 
