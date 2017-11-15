@@ -1,6 +1,6 @@
 Angular 4 
-video tutorial: https://www.youtube.com/watch?v=htPYk6QxacQ&t=3033s
-tutorial: https://www.udemy.com/the-complete-guide-to-angular-2/?couponCode=YOUTUBE_NG4
+video tutorial: https://www.youtube.com/watch?v=htPYk6QxacQ&t=3033s <br/>
+tutorial: https://www.udemy.com/the-complete-guide-to-angular-2/?couponCode=YOUTUBE_NG4 <br/>
 
 npm install -g @angular/cli <br/>
 ng new my-first-app <br/>
@@ -20,5 +20,5 @@ ng serve <br/>
 12. Deployment
 13. Animations & Testing
 
-Typescript = superset of ES5+ES6 of javascript = compiled to JavaScript
+Typescript = superset of ES5+ES6 of javascript = compiled to JavaScript <br/>
 
