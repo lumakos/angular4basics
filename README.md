@@ -41,3 +41,11 @@ onUpdate(event:any) {<br/>
   
 <b>Input events - TwoWayBinding</b><br/>
 <input type="text" [(ngModel)]="serverName"><br/>
+
+<b>Directives</b> are Instructions in the DOM<br/>
+'<p appTurnGreen>Receives a green backgrouund!</p>' <br/>
+
+@Directive({<br/>
+	selector: '[appTurnGreen]'<br/>
+})<br/>
+export class TurnGreenDirective{}<br/>
