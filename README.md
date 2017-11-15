@@ -38,3 +38,6 @@ ng generate component servers <br/>
 onUpdate(event:any) {<br/>
   	this.severValue = (<HTMLInputElement>event.target).value;<br/>
 }<br/>
+  
+<b>Input events - TwoWayBinding</b><br/>
+<input type="text" [(ngModel)]="serverName"><br/>
