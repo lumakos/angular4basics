@@ -43,7 +43,9 @@ onUpdate(event:any) {<br/>
 <input type="text" [(ngModel)]="serverName"><br/>
 
 <b>Directives</b> are Instructions in the DOM<br/>
-"<p appTurnGreen>"Receives a green backgrouund!"</p>"<br/>
+{::nomarkdown}
+<p appTurnGreen>"Receives a green backgrouund!"</p><br/>
+{:/}
 
 @Directive({<br/>
 	selector: '[appTurnGreen]'<br/>
