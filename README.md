@@ -2,9 +2,9 @@
 video tutorial: https://www.youtube.com/watch?v=htPYk6QxacQ&t=3033s <br/>
 tutorial: https://www.udemy.com/the-complete-guide-to-angular-2/?couponCode=YOUTUBE_NG4 <br/>
 
-npm install -g @angular/cli <br/>
-ng new my-first-app <br/>
-ng serve <br/>
+`npm install -g @angular/cli` <br/>
+`ng new my-first-app` <br/>
+`ng serve` <br/>
 
 <b>Indexes</b> <br/>
 
@@ -25,27 +25,27 @@ ng serve <br/>
 <b>Typescript</b> = superset of ES5+ES6 of javascript = compiled to JavaScript <br/>
 
 <b>Install Bootstrap</b> <br/>
-npm install --save bootstrap <br/>
-and add in .angular-cli.json <br/>
-"styles": ["../node_modules/bootstarp/dist/css/bootstrap.min.css"]<br/>
+`npm install --save bootstrap` <br/>
+and add in `.angular-cli.json` <br/>
+`"styles": ["../node_modules/bootstarp/dist/css/bootstrap.min.css"]`<br/>
 
 <b>Create new Component</b> <br/>
-ng generate component servers <br/>
+`ng generate component servers` <br/>
 
 <b>Input events - OneWayBinding</b><br/>
-<input type="text" (input)="onUpdate($event)"><br/>
+`<input type="text" (input)="onUpdate($event)">`<br/>
 
-onUpdate(event:any) {<br/>
-  	this.severValue = (<HTMLInputElement>event.target).value;<br/>
-}<br/>
+`onUpdate(event:any) {
+  	this.severValue = (<HTMLInputElement>event.target).value;
+}`<br/>
   
 <b>Input events - TwoWayBinding</b><br/>
-<input type="text" [(ngModel)]="serverName"><br/>
+`<input type="text" [(ngModel)]="serverName">`<br/>
 
 <b>Directives</b> are Instructions in the DOM<br/>
 `<p appTurnGreen>"Receives a green backgrouund!"</p>`<br/>
 
-@Directive({<br/>
-	selector: '[appTurnGreen]'<br/>
-})<br/>
-export class TurnGreenDirective{}<br/>
+`@Directive({
+	selector: '[appTurnGreen]'
+})
+export class TurnGreenDirective{}`<br/>
