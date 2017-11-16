@@ -61,3 +61,6 @@ export class TurnGreenDirective{}`<br/>
 
 <br>if-else</b><br>
 `this.serverStatus = Math.random() > 0.5 ? 'online' : 'offline';`<br/>
+
+<b>ngStyle</b><br/>
+`<p [ngStyle]="{backgroundColor:getColor()}">mpla mpla mpla</p>`<br/>
