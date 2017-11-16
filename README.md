@@ -44,7 +44,7 @@ and add in `.angular-cli.json` <br/>
 <b>Input events - TwoWay Data-Binding</b><br/>
 `<input type="text" [(ngModel)]="serverName">`<br/>
 
-<b>Important</b>: For Two-Way-Binding to work, you need to enable the ngModel  directive.<br/> This is done by adding the FormsModule  to the imports[]  array in the AppModule.
+<b>Important</b>: For Two-Way-Binding to work, you need to enable the ngModel  directive.<br/> This is done by adding the FormsModule  to the imports[]  array in the AppModule.<br/>
 `import { FormsModule } from '@angular/forms';`	
 
 <b>Directives</b> are Instructions in the DOM<br/>
