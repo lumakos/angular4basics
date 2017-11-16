@@ -56,9 +56,6 @@ and add in `.angular-cli.json` <br/>
 export class TurnGreenDirective{}`<br/>
 
 <b>1Enhancing ngIf with Else Condition</b>
-`<p *nfIf="serverCreated">mpla mpla mpla </p>`<br/>
-Else<br/>
-`<ng-template #noServer>
-	<p>mpla mpla mpla </p>
-</ng-template>`<br/>
+`<div *ngIf=”condition; else elseBlock”>Truthy condition</div>`<br/>
+`<ng-template #elseBlock>Falsy condition</ng-template>`<br/>
 
