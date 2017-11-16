@@ -37,7 +37,7 @@ and add in `.angular-cli.json` <br/>
 <b>Input events - OneWayBinding</b><br/>
 `<input type="text" (input)="onUpdate($event)">`<br/>
 
-`onUpdate(event:any) {
+`onUpdate(event: Event) {
   	this.severValue = (<HTMLInputElement>event.target).value;
 }`<br/>
   
