@@ -54,3 +54,11 @@ and add in `.angular-cli.json` <br/>
 	selector: '[appTurnGreen]'
 })
 export class TurnGreenDirective{}`<br/>
+
+<b>1Enhancing ngIf with Else Condition</b>
+`<p *nfIf="serverCreated">mpla mpla mpla </p>`
+Else<br/>
+`<ng-template #noServer><br/>
+	<p>mpla mpla mpla </p><br/>
+</ng-template>`
+
