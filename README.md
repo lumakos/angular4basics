@@ -64,3 +64,6 @@ export class TurnGreenDirective{}`<br/>
 
 <b>ngStyle</b><br/>
 `<p [ngStyle]="{backgroundColor:getColor()}">mpla mpla mpla</p>`<br/>
+
+<b>*ngFor index</b><br/>
+`<div *ngFor="let log of logs; let i=index"></div>`<br/>
