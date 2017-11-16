@@ -55,7 +55,7 @@ and add in `.angular-cli.json` <br/>
 })
 export class TurnGreenDirective{}`<br/>
 
-<b>1Enhancing ngIf with Else Condition</b><br/>
+<b>Enhancing ngIf with Else Condition</b><br/>
 `<div *ngIf=”condition; else elseBlock”>Truthy condition</div>`<br/>
 `<ng-template #elseBlock>Falsy condition</ng-template>`<br/>
 
