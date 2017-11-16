@@ -34,14 +34,14 @@ and add in `.angular-cli.json` <br/>
 <b>Create new Component</b> <br/>
 `ng generate component servers` <br/>
 
-<b>Input events - OneWayBinding</b><br/>
+<b>Input events - OneWay Data-Binding</b><br/>
 `<input type="text" (input)="onUpdate($event)">`<br/>
 
 `onUpdate(event: Event) {
   	this.severValue = (<HTMLInputElement>event.target).value;
 }`<br/>
   
-<b>Input events - TwoWayBinding</b><br/>
+<b>Input events - TwoWay Data-Binding</b><br/>
 `<input type="text" [(ngModel)]="serverName">`<br/>
 
 <b>Directives</b> are Instructions in the DOM<br/>
