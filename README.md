@@ -59,5 +59,5 @@ export class TurnGreenDirective{}`<br/>
 `<div *ngIf=”condition; else elseBlock”>Truthy condition</div>`<br/>
 `<ng-template #elseBlock>Falsy condition</ng-template>`<br/>
 
-<br>if-else</b>
-`this.serverStatus = Math.random() > 0.5 ? 'online' : 'offline';`
+<br>if-else</b><br>
+`this.serverStatus = Math.random() > 0.5 ? 'online' : 'offline';`<br/>
