@@ -67,3 +67,16 @@ export class TurnGreenDirective{}`<br/>
 
 <b>*ngFor index</b><br/>
 `<div *ngFor="let log of logs; let i=index"></div>`<br/>
+
+<b>Model.ts</b><br/>
+`export class Country {
+	constructor(public id: number,
+		public code: string,
+		public description: string,
+		public isoCode: string,
+		public inEU: boolean,
+		public fla: string) {
+	}
+}
+
+export declare type Countries = Country[];`<br/>
