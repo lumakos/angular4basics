@@ -80,3 +80,5 @@ export class TurnGreenDirective{}`<br/>
 }<br/>
 <br/>
 export declare type Countries = Country[];<br/>
+
+`https://augury.angular.io/`
