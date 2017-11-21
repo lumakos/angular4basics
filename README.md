@@ -90,16 +90,17 @@ export declare type Countries = Country[];<br/>
 `<app-cockpit (serverCreated)="onServerAdded($event)">`<br/>
 `@Output() serverCreated = new EventEmitter<{serverName: string, serverContent: string}>();`<br/>
 `@Output('bpCreated') blueprintCreated = new EventEmitter<{serverName: string, serverContent: string}>();`<br/>
-  onAddServer(nameInput: HTMLInputElement) {
+<br/>
+  onAddServer(nameInput: HTMLInputElement) {<br/>
     this.serverCreated.emit({
       serverName: nameInput.value,
       serverContent: this.serverContentInput.nativeElement.value
-    });
+    });<br/>
   }
-
-  onAddBlueprint(nameInput: HTMLInputElement) {
+<br/>
+  onAddBlueprint(nameInput: HTMLInputElement) {<br/>
     this.blueprintCreated.emit({
       serverName: nameInput.value,
       serverContent: this.serverContentInput.nativeElement.value
-    });
+    });<br/>
   }`
