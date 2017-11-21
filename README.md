@@ -86,3 +86,28 @@ export declare type Countries = Country[];<br/>
 <b>Data binding in Custom component</b><br/>
 `<app-server-element [element]="serverElement"></app-server-element>`<br/>
 `@Input() element: {type: string, name: string};`</br>
+
+`@Output() serverCreated = new EventEmitter<{serverName: string, serverContent: string}>();
+  @Output('bpCreated') blueprintCreated = new EventEmitter<{serverName: string, serverContent: string}>();
+  // newServerName = '';
+  // newServerContent = '';
+  @ViewChild('serverContentInput') serverContentInput: ElementRef;
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+  onAddServer(nameInput: HTMLInputElement) {
+    this.serverCreated.emit({
+      serverName: nameInput.value,
+      serverContent: this.serverContentInput.nativeElement.value
+    });
+  }
+
+  onAddBlueprint(nameInput: HTMLInputElement) {
+    this.blueprintCreated.emit({
+      serverName: nameInput.value,
+      serverContent: this.serverContentInput.nativeElement.value
+    });
+  }`
