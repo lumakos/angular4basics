@@ -82,3 +82,6 @@ export class TurnGreenDirective{}`<br/>
 export declare type Countries = Country[];<br/>
 
 `https://augury.angular.io/`
+
+<b>Data binnding in Custom component</b><br/>
+`<app-server-element [element]="serverElement"></app-server-element>`<br/>
