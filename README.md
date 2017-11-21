@@ -85,3 +85,4 @@ export declare type Countries = Country[];<br/>
 
 <b>Data binnding in Custom component</b><br/>
 `<app-server-element [element]="serverElement"></app-server-element>`<br/>
+`@Input() element: {type: string, name: string};`</br>
