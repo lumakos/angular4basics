@@ -104,3 +104,19 @@ export declare type Countries = Country[];<br/>
       serverContent: this.serverContentInput.nativeElement.value
     });<br/>
   }`
+
+```
+/* JAVASCRipt */
+https://angular.io/docs
+https://learnxinyminutes.com/docs/typescript/
+https://angular-2-training-book.rangle.io/handout/why_angular_2.html
+https://gist.github.com/wayspurrchen/940a21127b77ac1a9720
+https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tooltip/Overview/jQuery/Light/
+https://valor-software.com/ngx-bootstrap/index-bs4.html#/accordion
+https://demo.tutorialzine.com/2015/01/freebie-5-responsive-footer-templates/index.html
+https://blog.sessionstack.com/how-javascript-works-event-loop-and-the-rise-of-async-programming-5-ways-to-better-coding-with-2f077c4438b5
+
+/* SERVERS *
+https://howtodoinjava.com/server/tomcat/a-birds-eye-view-on-how-web-servers-work/
+https://www.ibm.com/developerworks/library/j-jtp0730/index.html
+```
