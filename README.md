@@ -115,6 +115,12 @@ https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tooltip/Overview/jQuery/Ligh
 https://valor-software.com/ngx-bootstrap/index-bs4.html#/accordion
 https://demo.tutorialzine.com/2015/01/freebie-5-responsive-footer-templates/index.html
 https://blog.sessionstack.com/how-javascript-works-event-loop-and-the-rise-of-async-programming-5-ways-to-better-coding-with-2f077c4438b5
+
+https://dev.to/nddyandy/introduction-to-oop-in-javascript-ao0
+https://stackoverflow.com/questions/762011/whats-the-difference-between-using-let-and-var-to-declare-a-variable
+http://es6-features.org/#BlockScopedVariables
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
+https://www.w3schools.com/js/js_object_prototypes.asp
 ```
 <b>SERVERS</b>
 ```
