@@ -127,3 +127,8 @@ https://www.w3schools.com/js/js_object_prototypes.asp
 https://howtodoinjava.com/server/tomcat/a-birds-eye-view-on-how-web-servers-work/
 https://www.ibm.com/developerworks/library/j-jtp0730/index.html
 ```
+
+<b>RequireJS</b>
+```
+https://www.sitepoint.com/understanding-requirejs-for-effective-javascript-module-loading/
+```
