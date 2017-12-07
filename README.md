@@ -136,3 +136,8 @@ https://www.sitepoint.com/understanding-requirejs-for-effective-javascript-modul
 ```
 https://material.io/
 ```
+
+<b>JavaScript Prototype</b>
+```
+https://hackernoon.com/prototypes-in-javascript-5bba2990e04b
+```
