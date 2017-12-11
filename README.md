@@ -121,6 +121,8 @@ https://stackoverflow.com/questions/762011/whats-the-difference-between-using-le
 http://es6-features.org/#BlockScopedVariables
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
 https://www.w3schools.com/js/js_object_prototypes.asp
+
+https://hackernoon.com/es6-for-beginners-f98120b57414
 ```
 <b>SERVERS</b>
 ```
