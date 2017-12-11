@@ -123,6 +123,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
 https://www.w3schools.com/js/js_object_prototypes.asp
 
 https://hackernoon.com/es6-for-beginners-f98120b57414
+https://hackernoon.com/javascript-hacks-for-es6-hipsters-67d633ce8ace
 ```
 <b>SERVERS</b>
 ```
