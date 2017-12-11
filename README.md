@@ -144,3 +144,7 @@ https://material.io/
 ```
 https://hackernoon.com/prototypes-in-javascript-5bba2990e04b
 ```
+<b>Python</b>
+```
+http://www.souravsengupta.com/cds2015/python/LPTHW.pdf
+```
