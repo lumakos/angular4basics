@@ -70,7 +70,7 @@ export class TurnGreenDirective{}`<br/>
 
 <b>Model.ts</b><br/>
 ```
-export class Country {<br/>
+export class Country {
 	constructor(public id: number,
 		public code: string,
 		public description: string,
