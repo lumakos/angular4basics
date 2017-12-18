@@ -92,20 +92,17 @@ export declare type Countries = Country[];<br/>
 `@Output('bpCreated') blueprintCreated = new EventEmitter<{serverName: string, serverContent: string}>();`<br/>
 <br/>
 ```
-  onAddServer(nameInput: HTMLInputElement) {<br/>
+  onAddServer(nameInput: HTMLInputElement) {
     this.serverCreated.emit({
       serverName: nameInput.value,
       serverContent: this.serverContentInput.nativeElement.value
-    });<br/>
+    });
   }
-```
-<br/>
-```
-  onAddBlueprint(nameInput: HTMLInputElement) {<br/>
+  onAddBlueprint(nameInput: HTMLInputElement) {
     this.blueprintCreated.emit({
       serverName: nameInput.value,
       serverContent: this.serverContentInput.nativeElement.value
-    });<br/>
+    });
   }
 ```
 
