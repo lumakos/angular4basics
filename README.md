@@ -107,7 +107,7 @@ export declare type Countries = Country[];<br/>
     });
   }
 ```
-<b>Create new component</b>
+<b>Create new component</b><br/>
 `ng g c server-element --spec f`
 
 <b>JavaScript</b>
