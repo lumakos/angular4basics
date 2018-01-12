@@ -32,7 +32,7 @@ and add in `.angular-cli.json` <br/>
 `"styles": ["../node_modules/bootstarp/dist/css/bootstrap.min.css"]`<br/>
 
 <b>Create new Component</b> <br/>
-`ng generate component servers` <br/>
+`ng generate component <component-name> --spec false` <br/>
 
 <b>Input events - OneWay Data-Binding</b><br/>
 `<input type="text" (input)="onUpdate($event)">`<br/>
